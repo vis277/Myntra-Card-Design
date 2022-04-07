@@ -1,0 +1,34 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 12px;
+    max-width: 220px;
+    gap: 10px;
+}
+.image-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+.rating-container{
+position: absolute;
+margin: 5px;
+background-color: white;
+height: 20px;
+display: flex;
+align-items: center;
+gap: 3px;
+}
+.star{
+padding-bottom: 5px;
+color:#008000;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.discount{
+    color: red;
+}
